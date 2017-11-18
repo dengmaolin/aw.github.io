@@ -1,0 +1,48 @@
+/*
+ *  @ 文件描述: 首页样式
+ *  @ 作者:  赵伟
+ *  @ 更新:  赵伟(2016-9-5)
+ */
+
+.main-list {
+	padding: 15px;
+}
+
+.main-list li {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #ddd;
+}
+
+.main-list li.active {
+	background-color: #0088cc;
+	color: #fff;
+}
+
+.main-list .title {
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: #000;
+}
+
+.main-list .text {
+	height: 42px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	color: #666;
+}
+
+.main-list .read {
+	
+}
+
+.main-list .read span {
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 1px solid #ddd;
+}
+
+.main-list .read span:last-child {
+	border-right-width: 0;
+}

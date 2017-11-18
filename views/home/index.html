@@ -1,0 +1,187 @@
+<!--
+	个人简介
+	项目
+	前端技能
+	留言
+	
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<script src="../common/common_css.js"></script>
+		<link href="../../public/js/plug-in/swiper/animate.min.css" rel="stylesheet"/>
+		<link href="../../public/js/plug-in/particles/particles.css" rel="stylesheet"/>
+		
+	</head>
+	<body class="index-body">
+		<div class="index-main">
+			<!-- particles.js container -->
+			
+			<div class="index-content">
+				<div id="particles-js"></div>
+				<p class="index-content-head animated bounceInUp"></p>
+				<p class="index-content-title animated bounceInUp">事虽微，不为不成；道虽近，不行不至  </p>
+				<!--<hr class="index-content-divice animated bounceInUp" />-->
+				<p class="index-content-info animated bounceInUp">我叫赵伟</p>
+				<p class="index-content-info animated bounceInUp">前端开发工程师</p>
+				<p class="index-content-info animated bounceInUp">手机:15396357886</p>
+				<p class="index-content-info animated bounceInUp">QQ:969748465@qq.com</p>
+			</div>
+			<div class="ui-menu-btn list_bg"></div>
+			<ul class="ui-menu">
+				<li><a href="../resume/resume.html">个人简历</a></li>
+				<li><a href="../experience/index.html">项目经验</a></li>
+				<li><a href="../code/index.html">技术交流</a></li>
+				<li><a href="./leaveMessage.html">留言</a></li>
+			</ul>
+		</div>
+		
+		<script src="../common/common_js.js"></script>
+		<script type="text/javascript" src="../../public/js/plug-in/particles/particles.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src=".../../public/js/plug-in/particles/stats.js" charset="utf-8"></script>
+		<script>
+			$(function(){
+				$('.index-content-head').addClass('animated bounceInUp');
+				$(".ui-menu-btn").click(function(){
+					if($(".ui-menu").css('display')=='block'){
+						$(".ui-menu").css('display','none');
+					}else{
+						$(".ui-menu").css('display','block');
+					}
+				});
+			})
+			particlesJS("particles-js", {
+			  "particles": {
+			    "number": {
+			      "value": 80,
+			      "density": {
+			        "enable": true,
+			        "value_area": 800
+			      }
+			    },
+			    "color": {
+			      "value": "#ffffff"
+			    },
+			    "shape": {
+			      "type": "circle",
+			      "stroke": {
+			        "width": 0,
+			        "color": "#000000"
+			      },
+			      "polygon": {
+			        "nb_sides": 5
+			      },
+			      "image": {
+			        "src": "img/github.svg",
+			        "width": 100,
+			        "height": 100
+			      }
+			    },
+			    "opacity": {
+			      "value": 0.5,
+			      "random": false,
+			      "anim": {
+			        "enable": false,
+			        "speed": 1,
+			        "opacity_min": 0.1,
+			        "sync": false
+			      }
+			    },
+			    "size": {
+			      "value": 3,
+			      "random": true,
+			      "anim": {
+			        "enable": false,
+			        "speed": 40,
+			        "size_min": 0.1,
+			        "sync": false
+			      }
+			    },
+			    "line_linked": {
+			      "enable": true,
+			      "distance": 150,
+			      "color": "#ffffff",
+			      "opacity": 0.4,
+			      "width": 1
+			    },
+			    "move": {
+			      "enable": true,
+			      "speed": 6,
+			      "direction": "none",
+			      "random": false,
+			      "straight": false,
+			      "out_mode": "out",
+			      "bounce": false,
+			      "attract": {
+			        "enable": false,
+			        "rotateX": 600,
+			        "rotateY": 1200
+			      }
+			    }
+			  },
+			  "interactivity": {
+			    "detect_on": "canvas",
+			    "events": {
+			      "onhover": {
+			        "enable": true,
+			        "mode": "grab"
+			      },
+			      "onclick": {
+			        "enable": true,
+			        "mode": "push"
+			      },
+			      "resize": true
+			    },
+			    "modes": {
+			      "grab": {
+			        "distance": 140,
+			        "line_linked": {
+			          "opacity": 1
+			        }
+			      },
+			      "bubble": {
+			        "distance": 400,
+			        "size": 40,
+			        "duration": 2,
+			        "opacity": 8,
+			        "speed": 3
+			      },
+			      "repulse": {
+			        "distance": 200,
+			        "duration": 0.4
+			      },
+			      "push": {
+			        "particles_nb": 4
+			      },
+			      "remove": {
+			        "particles_nb": 2
+			      }
+			    }
+			  },
+			  "retina_detect": true
+			});
+			
+			/* ---- stats.js config ---- */
+			
+			var count_particles, stats, update;
+			stats = new Stats;
+			stats.setMode(0);
+			stats.domElement.style.position = 'absolute';
+			stats.domElement.style.left = '0px';
+			stats.domElement.style.top = '0px';
+			document.body.appendChild(stats.domElement);
+			count_particles = document.querySelector('.js-count-particles');
+			update = function() {
+			  stats.begin();
+			  stats.end();
+			  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+			    //count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+			  }
+			  requestAnimationFrame(update);
+			};
+			requestAnimationFrame(update);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,265 @@
+/*
+ *  @ 文件描述: 个人简历样式
+ *  @ 作者:  赵伟
+ *  @ 更新:  赵伟(2016-8-12 18.54)
+ */
+
+html,body {
+	width: 100%;
+    min-height: 100%;
+}
+
+.resume_main {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px; 
+	background-color: #00C091;
+}
+
+
+.leftItemBlock {
+	padding: 30px 30px 0 30px;
+}
+
+.resume_wrap {
+	width: 820px;
+	overflow:hidden;
+	margin: auto;
+}
+
+.resume_left {
+	width: 270px;
+	height: 100%;
+	float: left;
+	padding-bottom: 30px;
+	background: #0b70bd;
+}
+
+.resume_right {
+	width: 550px;
+	height: 100%;
+	float: left;
+	background-color: #fff;
+	padding: 40px 10px 40px 14px;
+}
+
+.resume_left,
+.resume_right{
+    margin-bottom: -100000px;/*数值随便设置,越大越好,也就是(-padding-bottom值)*/
+    padding-bottom: 100000px;/*数值随便设置,越大越好*/
+}
+
+.resume_photo {
+	padding-top: 50px;
+}
+
+.resume_photo_img {
+	width: 128px;
+	height: 158px;
+	margin: auto;
+	border: 3px solid #fff;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.resume_info-item {
+	margin-bottom: 10px;
+}
+
+.resume_info-item .icon {
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.resume_info-item span {
+	margin-right: 8px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 14px;
+}
+
+.leftItemBlock .title {
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.resume_skill_item {
+	margin-top: 15px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.resume_skill_percent {
+	position: relative;
+}
+.resume_skill_percent .percent_w {
+	width: 130px;
+	height: 10px;
+	background-color: #fff;
+}
+
+.resume_skill_percent .percent_b {
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-color: #329cec;
+}
+
+.resume_skill_percent .percent_b.b1 {
+	width: 25%;
+}
+
+.resume_skill_percent .percent_b.b2 {
+	width: 50%;
+}
+
+.resume_skill_percent .percent_b.b3 {
+	width: 75%;
+}
+
+.resume_skill_percent .percent_b.b4 {
+	width: 100%;
+}
+
+.resume_skill_name {
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+
+.resume_skill_text {
+	position: absolute;
+    top: -5px;
+    right: 0px;
+    font-size: 14px;
+}
+
+.leftItemBlock-icon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+.leftItemBlock-icon i {
+	display: block;
+	width: 16px;
+	height: 16px;
+	margin: auto;
+	margin-top: 7px;
+	background-size:cover ;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.resume_love-item {
+	margin-top: 25px;
+	margin-right: 30px;
+}
+
+.resume_love-ico {
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+	border: 1px solid rgba(255,255,255,.5);
+}
+
+.resume_love-ico span {
+	width: 26px;
+	height: 26px;
+	margin: auto;
+	margin-top: 17px;
+	display: block;
+	background-size:cover ;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+.resume_love-title {
+	width: 60px;
+	margin-top: 3px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+
+.resume_name {
+	padding: 30px 20px 15px 20px;
+}
+
+.resume_name h3 {
+	font-size: 30px;
+    color: #414141;
+    padding-right: 10px;
+}
+
+.resume_name p {
+	margin-top: 20px;
+	line-height: 14px;
+	color: #878686;
+	font-size: 14px;
+}
+
+.resume-item {
+	padding: 30px 20px 15px 20px;
+}
+
+.resume-item .resume-item-ico {
+	width: 30px;
+    height: 30px;
+    display: block;
+	background: #0b70bd;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.resume-item .resume-title {
+	height: 30px;
+    line-height: 27px;
+    width: 434px;
+    border-bottom: 1px solid #254665;
+    color: #0b70bd;
+    border-color: #0b70bd;
+    font-weight: bold;
+}
+
+.resume-item .resume-item-yx span{
+	margin-right: 35px;
+	padding: 10px 0;
+	display: inline-block;
+    font-size: 14px;
+    color: #878686;
+}
+
+.resume-item-ul {
+	padding: 10px 0;
+	color: #4b4b4b;
+}
+
+.resume-item-ul li {
+	float: left;
+	width: 30%;
+	text-align: left;
+	font-size: 14px;
+}
+
+.resume-item-ul li:nth-of-type(2) {
+	width: 40%;
+}
+
+.resume-item-text {
+	margin-bottom: 15px;
+	color: #878686;
+	line-height: 1.5;
+	font-size: 14px;
+}
+

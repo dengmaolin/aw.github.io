@@ -1,0 +1,79 @@
+/*
+ *  @ 文件描述: 基础样式定义
+ *  @ 作者:  赵伟
+ *  @ 更新:  赵伟(2016-9-4 10:45)
+ */
+
+
+/*
+ *  @ 文件描述: 基础样式定义
+ *  @ 作者:  赵伟
+ *  @ 更新:  赵伟(2017-8-15)
+ */
+
+
+html, 
+body,
+div, 
+span, 
+p, a, 
+ol, ul, li, dl, dt, dd, 
+img, nav, 
+header, footer, 
+input,select,textarea, section,
+h1,h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+button {
+	outline: none;
+}
+
+ul {
+	list-style: none;	
+}
+
+a {
+	text-decoration: none !important;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 16px;
+}

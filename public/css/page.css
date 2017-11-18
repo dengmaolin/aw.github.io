@@ -1,0 +1,87 @@
+/*
+ *  @ 文件描述: 各个具体页面的样式
+ *  @ 作者:  赵伟
+ *  @ 更新:  赵伟(2017-07-21)
+ */
+
+/* start 功能: 首页样式    作者: 赵伟 */
+
+
+.index-main {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/index_bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+p {
+	margin: 0;	
+}
+
+.index-content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	display: -webkit-flex;
+  	flex-direction:column;
+  	justify-content:center;
+  	align-items:center;
+  	color: #fff;
+  	font-size: 0.7rem;
+}
+
+.index-content-head {
+	position: relative;
+	width: 7.5rem;
+	height: 7.5rem;
+	border-radius: 50%;
+	background-image: url(../img/lufei3.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 2px solid #fff;
+	-webkit-animation-duration: 3s !important;
+    -webkit-animation-delay: 0s !important;    //动画延迟时间
+}
+
+.index-content-head:hover {
+	background-image: url(../img/lufei4.jpg);
+}
+
+.index-content-title {
+	position: relative;
+	line-height: 1.25rem;
+	border-bottom: 1px solid #fff;
+	padding: 0.5rem 1.25rem;
+	-webkit-animation-duration: 3s !important;
+    -webkit-animation-delay: 1s !important;    //动画延迟时间
+	
+	
+}
+
+/*.index-content-divice {
+	position: relative;
+	width: 500px;
+	height: 1px;
+	background-color: #fff;
+	border-width: 0;
+}*/
+
+.index-content-info {
+	position: relative;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	-webkit-animation-duration: 3s !important;
+    -webkit-animation-delay: 2s !important;    //动画延迟时间
+}
+
+
+
+/* end 功能: 首页样式    作者: 赵伟 */

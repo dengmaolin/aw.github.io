@@ -1,0 +1,17 @@
+/*
+ *  @ 文件描述: 背景图片地址
+ *  @ 作者:  赵伟
+ *  @ 更新:  赵伟(2016-9-4)
+ */
+
+.headerbg-bg {
+	background-image: url(../../img/code/headerbg.jpg);
+}
+
+.logoImg-bg {
+	background-image: url(../../img/code/logoImg.jpg);
+}
+
+.header-add-bg {
+	background-image: url(../../img/code/header-add.png);
+}

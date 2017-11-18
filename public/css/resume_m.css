@@ -1,0 +1,244 @@
+/*
+ *  @ 文件描述: 个人简历移动版样式
+ *  @ 作者:  赵伟
+ *  @ 更新:  赵伟(2016-8-28 20.54)
+ */
+
+.resume-header {
+	width: 100%;
+    height: 9rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.resume-name {
+	position: relative;
+	width: 100%;
+	margin-top: 4rem;
+}
+
+.resume-name-left {
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.8rem;
+    height: 7rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.resume-name-right {
+	height: 6.2rem;
+    margin-left: 1.8rem;
+    padding-top: 0.8rem;
+    margin-top: 0.7rem;
+    background: #0b70bd;
+    padding-left: 0.9rem;
+    color: #fff;
+}
+
+.resume-name-right h1 {
+	margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.resume-name-right p {
+	font-size: 0.7rem;
+}
+
+.resume-name-photo {
+	position: absolute;
+    right: 0.8rem;
+    top: -5rem;
+    width: 5.6rem;
+    height: 6.6rem;
+    border: 3px solid #e3e3e3;
+	
+}
+
+.resume-name-photo img {
+	width: 100%;
+	height: 100%;
+}
+
+.resume-info-my {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	color: #878686;
+	font-size: 0.7rem;
+}
+
+.resume-info-my p {
+	margin-bottom: 0.5rem;
+}
+
+.resume-info-Item {
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.resume-info-Item .title {
+	position: relative;
+	width: 7rem;
+	height: 1.6rem;
+	margin: auto;
+	line-height: 1.6rem;
+	text-align: center;
+	background-color: #0b70bd;
+	color: #fff;
+	font-size: 16px;
+}
+
+.resume-info-Item .title:before {
+	position: absolute;
+    content: "";
+    width: 4.8rem;
+    height: 2px;
+    top: 0.7rem;
+    left: -4.8rem;
+    background: #0b70bd;
+}
+
+
+.resume-info-Item .title:after {
+	position: absolute;
+    content: "";
+    width: 4.8rem;
+    height: 2px;
+    top: 0.7rem;
+    right: -4.8rem;
+    background: #0b70bd;
+}
+
+.resume-item {
+	padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    
+	text-align: left;
+}
+
+.resume-item .resume-item-yx {
+	margin-top: 0.75rem;
+	margin-bottom: 0.3rem;
+}
+
+.resume-item-yx span {
+	width: 50%;
+	margin-bottom: 0.5rem;
+    float: left;
+    font-size: 0.7rem;
+    color: #878686;
+}
+
+.resume-item-text {
+    margin-bottom: 0.5;
+    color: #878686;
+    line-height: 1.5;
+    font-size: 0.7rem;
+    text-align: left;
+}
+
+
+.resume-item-devide {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #e3e3e3;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.resume-love-item {
+	width: 33.33%;
+	margin-top: 2rem;
+}
+
+.resume-love-ico {
+	width: 3rem;
+	height: 3rem;
+	margin: auto;
+	border-radius: 5px;
+	border: 1px solid rgba(255,255,255,.5);
+	background-color: #0b70bd;
+}
+
+.resume-love-ico span {
+	width: 1.3rem;
+	height: 1.3rem;
+	margin: auto;
+	margin-top: 0.9rem;
+	display: block;
+	background-size:cover ;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+.resume-love-title {
+	width: 60px;
+	margin-top: 3px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+
+.resume_skill_item {
+	margin-top: 0.75rem;
+	padding-left: 1.2rem;
+    padding-right: 1.2rem;
+	font-size: 0.6rem;
+	color: #878686;
+}
+
+.resume_skill_percent {
+	position: relative;
+}
+.resume_skill_item .percent_w {
+	width: 10.5rem;
+	height: 0.5rem;
+	background-color: #f2f2f2;
+}
+
+.resume_skill_item .percent_b {
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-color: #329cec;
+}
+
+.resume_skill_item .percent_b.b1 {
+	width: 25%;
+}
+
+.resume_skill_item .percent_b.b2 {
+	width: 50%;
+}
+
+.resume_skill_item .percent_b.b3 {
+	width: 75%;
+}
+
+.resume_skill_item .percent_b.b4 {
+	width: 100%;
+}
+
+.resume_skill_name {
+	margin-bottom: 0.5rem;
+	font-size: 0.7rem;
+}
+
+.resume_skill_text {
+	position: absolute;
+    top: -5px;
+    right: 0px;
+    font-size: 0.7rem;
+}
+
+.resume-info-Item.exp {
+	padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}

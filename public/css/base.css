@@ -1,0 +1,120 @@
+/*
+ *  @ 文件描述: 基础样式定义
+ *  @ 作者:  赵伟
+ *  @ 更新:  赵伟(2016-8-16 10:45)
+ */
+
+
+html, body, div, span, p, a, ol, ul, li, dl, dt, dd, img, nav, header, footer, input,select,textarea, section,h1,h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+button {
+	outline: none;
+}
+
+ul {
+	list-style: none;	
+}
+
+a {
+	text-decoration: none !important;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.clearfix {
+  	zoom: 1;
+}
+
+.clearfix:after,.clearfix:before {
+    display: table;  
+    content: "";  
+    line-height: 0;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.inline-block-middle {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.overflow-ellipsis {
+	overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+}
+
+.hidden {
+	display: none;
+}
+
+.color-gray {
+	color: #999;
+}
+
+.color-green {
+	color: rgb(0,158,150);
+}
+
+.color-blue {
+	color: rgb(13,176,229);
+}
+
+.color-orange {
+	color: rgb(255,89,57);
+}
+
+.color-black {
+	color: #000;
+}
+
+
+.color-red {
+	color: red;
+}
+
+.font-size-12 {
+	font-size: 1.2rem;
+}
+
+.font-size-14 {
+	font-size: 1.4rem;
+}
+
+.font-size-16 {
+	font-size: 1.6rem;
+}
+
