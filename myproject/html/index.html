@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>项目展示</title>
+		<link rel="stylesheet"  href="../js/rotating-slider/rotating-slider.css" />
+		<style>
+			body {
+			    background-color: #313131;
+			}
+			.ui-title {
+				margin-top: 20px;
+				font-weight: 600;
+				font-size: 18px;
+				color: #fff;
+				text-align: center;
+			}
+			.ui-text {
+				margin-top: 15px;
+				font-size: 14px;
+				color: #fff;
+				text-align: center;
+			}
+			.ui-text a {
+				text-decoration: none;
+				color: #fff;
+			}
+			.ui-title.black {
+				color: #000;
+			}
+			.ui-text.black { 
+				color: #666;
+			}
+			
+			.rotating-slider ul.slides li:nth-of-type(1){background: #3498db;}
+			.rotating-slider ul.slides li:nth-of-type(2){background-image: url(../img/price.png);background-size: contain;background-position: center;}
+			.rotating-slider ul.slides li:nth-of-type(3){background: #4bae4f;}
+			.rotating-slider ul.slides li:nth-of-type(4){background-image: url(../img/tnz.png);background-size: contain;background-position: center;}
+			.rotating-slider ul.slides li:nth-of-type(5){background: #f1c40f;}
+			.rotating-slider ul.slides li:nth-of-type(6){background-image: url(../img/car.jpg);background-size: contain;background-position: center;background-repeat: no-repeat;}
+			.rotating-slider ul.slides li:nth-of-type(7){background: #e74c3c}
+			.rotating-slider ul.slides li:nth-of-type(8){background-image: url(../img/parking.png);background-size: contain;background-position: center;}
+		</style>
+	</head>
+	<body>
+		<div class="rotating-slider">
+		    <ul class="slides">
+			    <li>
+			      <div class="inner">
+			        <h2 class="ui-title">厦门市价格及收费公示登记平台</h2>
+			        <p class="ui-text"><a href="http://price.xmdpc.gov.cn/">地址：http://price.xmdpc.gov.cn/</a></p>
+			        <p class="ui-text">描述: 收费公示系统通过在线登记停车场、教育、交通运输、民生商品、公共服务等信息来向社会公示价格收费标准</p>
+			      </div>
+			    </li>
+			    <li>
+			      <div class="inner">
+			      </div>
+			    </li>
+			    <li>
+			        <div class="inner">
+			      	    <h2 class="ui-title">特能装（86006.COM）-特能装商城、特种能源装备一站式供应链平台</h2>
+			            <p class="ui-text"><a href="http://www.86006.com/">地址：http://www.86006.com/</a></p>
+			            <p class="ui-text">描述: 特种能源装备一站式供应链平台－－提供油田、海工、液压、环保、核电、航材等能源工业设备物资一站式集成供应服务、海外代购代理服务、供应商托管服务，技术维修服务、金融服务平台。</p>
+			        </div>
+			    </li>
+			    <li>
+			      <div class="inner">
+			      </div>
+			    </li>
+			    <li>
+			      <div class="inner">
+			        <h2 class="ui-title">智慧停车场--车位预约、车位共享</h2>
+			        <p class="ui-text">智慧停车针对停车场管理方提供整体智慧停车解决方案，让停车场既可提升管理服务品质又能增益堵漏；针对车主研发智慧停车APP，实现进出停车场不停车电子支付停车费，摆脱停车缴费的烦恼，使停车不再难。让物业愉悦管车，让车主愉悦用车，停车好心情</p>
+			      </div>
+			    </li>
+			    <li>
+			      <div class="inner">
+			      </div>
+			    </li>
+			    <li>
+			      <div class="inner">
+			        <h2 class="ui-title">厦门市停车收费网上登记公示管理系统</h2>
+			        <p class="ui-text">收费公示系统通过在线登记停车场信息来向社会公示价格收费标准</p>
+			      </div>
+			    </li>
+			    <li>
+			      <div class="inner">
+			      </div>
+			    </li>
+		    </ul>
+		</div>
+		<script src="../js/jquery/jquery-3.2.1.min.js"></script>
+		<script src="../js/rotating-slider/jquery.rotating-slider.js"></script>
+		<script>
+			$(function(){ 
+			  $('.rotating-slider').rotatingSlider({
+			 
+			    // 自动播放
+			    autoRotate: true,
+			 
+			    // 自动播放的时间间隔
+			    autoRotateInterval: 6000,
+			 
+			    // 是否可以拖拽？
+			    draggable: true,
+			 
+			    // 轮播图的左右控制按钮
+			    directionControls: true,
+			    directionLeftText: '‹',
+			    directionRightText: '›',
+			 
+			    // 动画速度
+			    rotationSpeed: 750,
+			 
+			    // 轮播图的尺寸
+			    slideHeight : 360,
+			    slideWidth : 480,
+			     
+			  });
+			});
+		</script>
+	</body>
+</html>
